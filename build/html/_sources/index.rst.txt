@@ -3,13 +3,24 @@
 Welcome to CCNA's documentation!
 ================================================
 
-Please help us write this documentation
+PDocumentation in progress, please consider helping us if you are involved.
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Topics
+   :maxdepth: 2
+   :caption: General
+   
+   DATASETS
+   ACCESS
+   AUTHORS
 
-   topic/first-topic.rst
+.. toctree::
+   :maxdepth: 2
+   :caption: Derivatives
+
+   derivatives/fmri
+   derivatives/dti
+   derivatives/smri
+   derivatives/references
 
 Indices and tables
 ==================
