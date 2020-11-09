@@ -90,12 +90,11 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="fmri.html">Resting-state Functional MRI (rsfMRI)</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Diffusion MRI (dMRI)</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#tractoflow-pipeline">TractoFlow pipeline</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#type-of-measures">Type of Measures</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#population-based-white-matter-tractography-using-a-semi-automated-approach">Population-Based White Matter Tractography Using a Semi-Automated Approach</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#surface-based-tract-specific-analysis-tsa-with-improved-spatial-normalization-of-groups-of-diffusion-tensor-images-using-dti-tk">Surface-Based Tract Specific Analysis (TSA) with Improved Spatial Normalization of Groups of Diffusion Tensor Images using DTI-TK</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#surface-model-of-deep-grey-matter-structures-for-the-assessment-of-dti-images-proposed">Surface Model of Deep Grey Matter Structures for the Assessment of DTI Images (Proposed)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#quality-control-for-diffusion-mri-proposed">Quality Control for Diffusion MRI (Proposed)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tractoflow-pipeline">TractoFlow pipeline</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#input">Input</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#dwi-processes">DWI processes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#t1-processes">T1 processes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tractography">Tractography</a></li>
 </ul>
 </li>
 </ul>
@@ -174,98 +173,53 @@ The pipeline is based on Nextflow and Singularity. The goal with this pipeline i
 <blockquote>
 <div><p>Theaud, G., Houde, J.-C., Boré, A., Rheault, F., Morency, F., Descoteaux, M.,TractoFlow: A robust, efficient and reproducible diffusion MRI pipeline leveraging Nextflow &amp; Singularity, NeuroImage, <a class="reference external" href="https://doi.org/10.1016/j.neuroimage.2020.116889">https://doi.org/10.1016/j.neuroimage.2020.116889</a>.</p>
 </div></blockquote>
+<a class="reference internal image-reference" href="../_images/tractoflow.png"><img alt="Tractoflow image" class="align-right" src="../_images/tractoflow.png" style="width: 300px;" /></a>
 <div class="section" id="tractoflow-pipeline">
 <h2>TractoFlow pipeline<a class="headerlink" href="#tractoflow-pipeline" title="Permalink to this headline">¶</a></h2>
 <p>TractoFlow pipeline consist of 23 different steps : 14 steps for the diffusion weighted image (DWI) processing and 8 steps for the T1 weighted image processing.</p>
-<p>Input</p>
+<div class="section" id="input">
+<h3>Input<a class="headerlink" href="#input" title="Permalink to this headline">¶</a></h3>
 <blockquote>
-<div><p>Diffusion weighted image (DWI)
-b-values
-b-vectors
-T1 weighted image
-Reverse phase encoding B0 (Optional)</p>
+<div><ul class="simple">
+<li><p>Diffusion weighted image (DWI)</p></li>
+<li><p>b-values</p></li>
+<li><p>b-vectors</p></li>
+<li><p>T1 weighted image</p></li>
+<li><p>Reverse phase encoding B0 (Optional)</p></li>
+</ul>
 </div></blockquote>
-<p>DWI processes</p>
+</div>
+<div class="section" id="dwi-processes">
+<h3>DWI processes<a class="headerlink" href="#dwi-processes" title="Permalink to this headline">¶</a></h3>
 <blockquote>
-<div><p>Brain extraction (FSL)
-Denoising (Mrtrix3)
-Topup (FSL)
-Eddy (FSL)
-N4 bias correction (ANTs)
-Resample (Dipy)
-DTI metrics (Dipy)
-fODF metrics (Dipy)</p>
+<div><ul class="simple">
+<li><p>Brain extraction (FSL)</p></li>
+<li><p>Denoising (Mrtrix3)</p></li>
+<li><p>Topup (FSL)</p></li>
+<li><p>Eddy (FSL)</p></li>
+<li><p>N4 bias correction (ANTs)</p></li>
+<li><p>Resample (Dipy)</p></li>
+<li><p>DTI metrics (Dipy)</p></li>
+<li><p>fODF metrics (Dipy)</p></li>
+</ul>
 </div></blockquote>
-<p>T1 processes</p>
+</div>
+<div class="section" id="t1-processes">
+<h3>T1 processes<a class="headerlink" href="#t1-processes" title="Permalink to this headline">¶</a></h3>
 <blockquote>
-<div><p>Brain extraction (ANTs)
-Denoising (Dipy)
-N4 bias correction (ANTs)
-Resample (Dipy)
-Registration (ANTs)
-Tissue segmentation (FSL)</p>
+<div><ul class="simple">
+<li><p>Brain extraction (ANTs)</p></li>
+<li><p>Denoising (Dipy)</p></li>
+<li><p>N4 bias correction (ANTs)</p></li>
+<li><p>Resample (Dipy)</p></li>
+<li><p>Registration (ANTs)</p></li>
+<li><p>Tissue segmentation (FSL)</p></li>
+</ul>
 </div></blockquote>
-<p>Tractography</p>
+</div>
+<div class="section" id="tractography">
+<h3>Tractography<a class="headerlink" href="#tractography" title="Permalink to this headline">¶</a></h3>
 <p>The particle filter tractography is performed. Two types of seeding are available: WM-GM interface or WM mask.</p>
-<p>../_images/tractoflow_graph.png</p>
-</div>
-<div class="section" id="type-of-measures">
-<h2>Type of Measures<a class="headerlink" href="#type-of-measures" title="Permalink to this headline">¶</a></h2>
-<p>DTI parameter maps, including fractional anisotropy (FA), mean diffusivity (MD), axial diffusivity (AD) and radial diffusivity (RD), are four key quantitative parameters for the assessment of tissue micro-structure.</p>
-<p>Image preprocessing steps include motion and eddy current distortion corrections and diffusion tensor fitting, which are performed using FSL 5.01. Eddy-current induced distortion of diffusion weighted images (DWI) and head motion during scanning are corrected by registering the DW images to the b0 image with an affine transformation (FLIRT). Calculating diffusion tensor (DT) metrics involves a voxel-wise calculation of the tensor matrix, including FA, MD, AD, and RD (using DTIFIT).</p>
-<p>Three DTI analysis approaches will be pursued initially to measure diffusion parameters in different brain regions (ee are not proposing any voxel-based analysis methods at this point):
-(i) semi-automated tractography that yields averages over entire a priori defined tracts
-(ii) tract specific analysis for potential regional changes that differ along white matter tracts, and
-(iii) region-of-interest for specific regions such as deep grey matter structures.</p>
-<div class="section" id="population-based-white-matter-tractography-using-a-semi-automated-approach">
-<h3>Population-Based White Matter Tractography Using a Semi-Automated Approach<a class="headerlink" href="#population-based-white-matter-tractography-using-a-semi-automated-approach" title="Permalink to this headline">¶</a></h3>
-<p>The extraction of white matter tracts manually using DTI tractography is problematic for large population studies of a number of tracts due to the complexity of the process, the user bias, and time associated with placing of regions of interest that tracts must pass through.
-In our previous study, we proposed a novel semi-automated tractography method to extract major white matter tracts in each individual that was based on placing tractography seeding regions-of-interest only once on a template that then gets transferred to all other subjects (Catherine Lebel et al. 2008).
-This tool is now publicly available in Dr. Alexander Leemans’ ExploreDTI (www.exploreDTI.com) software, which we use for many of our in-house DTI studies.
-It does require setting thresholds for tractography (e.g. fractional anisotropy minimum value, maximum angle of primary eigenvector between adjacent voxels, etc) and usually needs visual inspection of all tracts and trimming of erroneous streamlines per individual.
-This method enabled the study of healthy ‘typical’ aging in 8 tracts (left and right), 3 commissural tracts, and fornix in 403 subjects aged 5 to 83 years (C. Lebel et al. 2012) – the manual tracking of 403 x 20 = 8060 tracts would not have been possible.
-However, it has limitations in that the registration and spatial normalization was performed with an affine transformation on the non-diffusion-weighted images (so-called b0 images) to obtain warping parameters for each subject.
-There are better methods to register inter-subject images (or the same images from one person acquired longitudinally) especially in the presence of brain atrophy as expected in AD.
-This methodology yields four diffusion parameters per tract that can be readily uploaded to a central database.</p>
-</div>
-<div class="section" id="surface-based-tract-specific-analysis-tsa-with-improved-spatial-normalization-of-groups-of-diffusion-tensor-images-using-dti-tk">
-<h3>Surface-Based Tract Specific Analysis (TSA) with Improved Spatial Normalization of Groups of Diffusion Tensor Images using DTI-TK<a class="headerlink" href="#surface-based-tract-specific-analysis-tsa-with-improved-spatial-normalization-of-groups-of-diffusion-tensor-images-using-dti-tk" title="Permalink to this headline">¶</a></h3>
-<p>While tractography approaches have typically averaged over all voxels in a tract (as in 2B.1.1), it is recognized that the entire tract may not be changing in unison.
-This common approach neglects focal changes and can reduce power in group comparisons or correlations with clinical scores.
-Recent techniques have been developed to enable the analysis of diffusion parameters along the length of individual white matter tracts (Colby et al. 2012)(Corouge et al. 2006)(Goodlett et al. 2009)(O’Donnell, Westin, and Golby 2009).
-A recent study also found various diffusion parameters that were variable along a few white matter tracts in Alzheimers Disease Neuroimaging Initiative (ADNI) subjects (Nir et al. 2015).
-However, those methods are best suited for tracts with tubular geometry such as the cingulum as DTI measurements are averaged across the cross-section along the fibers; larger sheet-like structures such as corpus callosum (CC) have to be divided into several tubular bundles.</p>
-<p>This surface model based tract specific analysis with improved spatial normalization of groups of diffusion tensor images to 178 healthy subjects and showed robust diffusion changes from early childhood to young adulthood at different sections of each tract (Chen et al. 2016).
-More importantly, we have demonstrated some promising results in the analysis of the ADNI dataset (cross-sectional and longitudinal) using this surface-model approach (Chen et al. 2016)(Chen et al. 2015).</p>
-<p>Figure 1 demonstrates a flow chart of the procedures for this surface-model method.
-Unlike the semi-automated tractography method in Section 2.1 where the tractography and DTI parameters are extracted in native space per subject, the TSA method does not do tractography in each subject but rather uses the tract template to identify corresponding voxels in the template co-registered diffusion images/maps.
-The along the tract parameters on individual meshes per tracts are not transferrable to a central database.</p>
-<blockquote>
-<div><a class="reference internal image-reference" href="../_images/dti-surface.png"><img alt="Alternative text" src="../_images/dti-surface.png" style="width: 600px;" /></a>
-<p><strong>Figure 1</strong>: A deformable DTI registration algorithm, DTI-TK (<a class="reference external" href="http://dti-tk.sourceforge.net">http://dti-tk.sourceforge.net</a>), is used in which image similarity is computed based on full tensor images (A,E). All subjects are aligned to a population specific template.
-Major tracts (C) and their corresponding medial surfaces (D) are manually segmented and extracted from the brain tractography of the template (B).
-The red curve represents the medial surface (skeleton) of the corticospinal tract (F).
-The boundaries (purple edges) are derived from the skeleton and radial field by inverse skeletonization.
-The vector (black arrow) lies in the tangent plane of the medial surface, and points in the direction of greatest changes in radius.
-DTI measurement (e.g., max FA) along the radius within the boundaries is then projected onto the individual subject’s tract map in the template space (G) and can be further analyzed per vertex such as fits versus age over a population (H,I) or between-group comparisons (I).
-Template surface mapping (D) only needs to be created once for all subjects.</p>
-</div></blockquote>
-</div>
-<div class="section" id="surface-model-of-deep-grey-matter-structures-for-the-assessment-of-dti-images-proposed">
-<h3>Surface Model of Deep Grey Matter Structures for the Assessment of DTI Images (Proposed)<a class="headerlink" href="#surface-model-of-deep-grey-matter-structures-for-the-assessment-of-dti-images-proposed" title="Permalink to this headline">¶</a></h3>
-<p>One potential extension of the pipeline under discussion is the analysis of surface model of deep grey matter structures obtained from automatic or manual segmentation for the assessment of DTI images.
-DTI analysis of cortical gray matter has revealed abnormalities in several patient groups such as multiple sclerosis (Rovaris et al. 2006) and mild cognitive impairment (Ray et al. 2006).
-Thus, the use of surface DTI scalar values to extract statistically powerful parameters provided careful use of smoothing and controlling for particular confounds may contribute to a better understanding of the extent and variability of grey matter pathology in brain diseases.</p>
-</div>
-<div class="section" id="quality-control-for-diffusion-mri-proposed">
-<h3>Quality Control for Diffusion MRI (Proposed)<a class="headerlink" href="#quality-control-for-diffusion-mri-proposed" title="Permalink to this headline">¶</a></h3>
-<p>Quality control currently is usually by visual inspection of the raw images for artifacts and excessive motion where corrupted images can be discarded.
-However, manual visualization is user dependent and time consuming.
-It would be useful to have software to identify potential datasets with issues.</p>
-<p>One future module of the pipeline includes the development of the integration of DTIprep with the current pipeline.
-DTIPrep is a dedicated dMRI QC software platform developed by I. Oguz etc. at University of Iowa to identify and correct common dMRI artifacts (Oguz et al. 2014).
-More specifically, the automatic QC phase performs steps such as image information checks, diffusion information checks, Rician noise removal on raw DWI volumes, inter-slice brightness artifact detection, eddy-current/motion artifact correction, residual motion detection, directional artifact detection/correction, etc.
-The meta-analysis of the QC reports has proven to be a valuable tool in identifying subtle site- or scanner-specific MR hardware anomalies that can be dynamically addressed to ensure the highest quality data collection (Oguz et al. 2014). However, the effectiveness of QC software for our current DTI (and ultimately CCNA) datasets is still under investigation.</p>
 </div>
 </div>
 </div>

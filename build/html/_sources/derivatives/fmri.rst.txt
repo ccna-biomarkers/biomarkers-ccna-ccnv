@@ -11,7 +11,7 @@ Overall, despite still being in its infancy, there is solid evidence at this sta
 
 .. image:: ../imgs/niak.png
   :width: 300
-  :alt: Alternative text
+  :alt: Niak image
 
 NIAK Pipeline
 :::::::::::::
