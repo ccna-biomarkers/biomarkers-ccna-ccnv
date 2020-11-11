@@ -92,6 +92,7 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="AUTHORS.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MRI.html">MRI</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Derivatives</span></p>
 <ul>
@@ -167,10 +168,6 @@
 <h1>Access<a class="headerlink" href="#access" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="data-transfer-agreement-dta">
 <h2>Data Transfer Agreement (DTA)<a class="headerlink" href="#data-transfer-agreement-dta" title="Permalink to this headline">¶</a></h2>
-<p>To access the CCNA dataset, it is required to complete a form with a brief description of planned analyses, and complete an inter-institutional data transfer agreement.
-The DTA must be signed by the researcher responsible for the project as well as a representant of the main acadamic institution where the research team is affiliated.
-The application will be evaluated by a data access committee and, if approved, a transfer key will be shared with the research team in order to transfer the data (see <a class="reference internal" href="#downloading-the-dataset"><span class="std std-ref">Downloading the dataset</span></a> section below).
-The operations of the data access committee are still being established.</p>
 </div>
 <div class="section" id="how-to-acknowledge">
 <h2>How to acknowledge<a class="headerlink" href="#how-to-acknowledge" title="Permalink to this headline">¶</a></h2>
@@ -190,66 +187,12 @@ Please reproduce this documentation verbatim to the greatest extent possible, an
 </div>
 <div class="section" id="ethics">
 <h2>Ethics<a class="headerlink" href="#ethics" title="Permalink to this headline">¶</a></h2>
-<p>The ccna biomarker project has been approved by the institutional research ethics board of the <a class="reference external" href="https://ciusss-centresudmtl.gouv.qc.ca/propos/services-en-anglais">CIUSSS du Centre-Sud-de-l’île-de-Montréal</a>.
-The CIUSSS is a large governmental health organization, and the core NeuroMod team is based at the Research Centre of the Montreal Geriatric Institute (<a class="reference external" href="http://www.criugm.qc.ca/en.html">CRIUGM</a>), which is a part of the CIUSSS, and affiliated with the <a class="reference external" href="https://www.umontreal.ca/">University of Montreal</a>.</p>
-<p>The ethics documentation may be useful for research teams to receive ethics approval for secondary analysis by their local institutions, if required.</p>
-<ul class="simple">
-<li><p><a class="reference external" href="./_static/ethics/approval_irb_ciusss_french.pdf">approval_irb_ciusss_french.pdf</a>: letter of approval from the institutional review board for the CCNA biomarker project.</p></li>
-<li><p>scientific overview of the CCNA biomarker project.</p></li>
-<li><p>the informed consent form signed by participants.</p></li>
-</ul>
 </div>
 <div class="section" id="downloading-the-dataset">
 <h2>Downloading the dataset<a class="headerlink" href="#downloading-the-dataset" title="Permalink to this headline">¶</a></h2>
-<p>All data are made available as a <a class="reference external" href="https://github.com/ccna-biomarkers">DataLad collection (currently requires to be part of the biomarker team)</a> on github.
-<a class="reference external" href="https://www.datalad.org/">DataLad</a> is a tool for versioning a large data structure in a git repository. The dataset can be explored without downloading the data, and it is easy to only download the subset of the data you need for your project.
-See the <a class="reference external" href="http://handbook.datalad.org/en/latest/">DataLad handbook</a> for further information.</p>
-<p>We recommend creating an SSH key (if not already present) on the machine on which the dataset will be installed and adding it to github.
-See the official <a class="reference external" href="https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account">github instructions</a> on how to create and add a key to your account.</p>
-<p>To obtain the data, you need to install a recent version of the <a class="reference external" href="http://handbook.datalad.org/en/latest/intro/installation.html">DataLad software</a>, available for Linux, OSX and Windows.</p>
-<blockquote>
-<div><div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>You will need to have valid login credentials to access the NeuroMod git as well as the NeuroMod <a class="reference external" href="https://aws.amazon.com/s3">Amazon S3</a> fileserver.</p>
-</div>
-</div></blockquote>
-<p>Once you have obtained these credentials, you can proceed as follows in a terminal:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Install recursively the dataset and subdataset of the current project.</span>
-<span class="c1"># If using ssh git clone as follow, you can set your public SSH key in the present git to ease future updates.</span>
-datalad install -r git@github.com:courtois-neuromod/cneuromod.git
-<span class="c1"># If errors show up relative to .heudiconv subdataset/submodule, this is OK, they are not published (will be cleaned up in the future).</span>
-<span class="nb">cd</span> cneuromod
-</pre></div>
-</div>
-<p>You will most likely want to checkout a stable release tag for your analyses. For instance:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git checkout ccna-2020
-</pre></div>
-</div>
-<p>We now set as environment variable the credentials to the file server. The s3 access_key and secret_key will be provided by the data manager after being granted access to cneuromod by the user access committee.</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># This needs to be set in your `bash` everytime you want to download data.</span>
-<span class="nb">export</span> <span class="nv">AWS_ACCESS_KEY_ID</span><span class="o">=</span>&lt;s3_access_key&gt;  <span class="nv">AWS_SECRET_ACCESS_KEY</span><span class="o">=</span>&lt;s3_secret_key&gt;
-</pre></div>
-</div>
-<p>You can now get data using:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>datalad get -r &lt;any/file/in/the/dataset.example&gt;
-</pre></div>
-</div>
 </div>
 <div class="section" id="updates">
 <h2>Updates<a class="headerlink" href="#updates" title="Permalink to this headline">¶</a></h2>
-<p>The dataset will be updated with new releases so you might want to get these changes (unless you are running analyses, or trying to reproduce results). The master branch will evolve with the project, and can be unstable or messy.
-Thus, we recommend using specific release tags.</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git checkout <span class="m">2020</span>-alpha2 <span class="c1"># checkout the dataset tag</span>
-git submodule update --init <span class="c1"># checkout the subdatasets corresponding commits</span>
-</pre></div>
-</div>
-<p>There is one stable release per year, e.g. <code class="docutils literal notranslate"><span class="pre">ccna-2020</span></code>, which is preceded by one or multiple alpha release (e.g. <code class="docutils literal notranslate"><span class="pre">ccna-2020-alpha</span></code>), beta release (e.g. <code class="docutils literal notranslate"><span class="pre">ccna-2020-beta</span></code>) and release candidate (e.g. <cite>cneuromod-2020-rc</cite>).</p>
-<p>To update your dataset to the latest version, use:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># update the dataset recursively</span>
-datalad update -r --merge
-</pre></div>
-</div>
-<p>Once your local dataset clone is updated, you might need to pull new data, as some files could have been added or changed.</p>
 </div>
 </div>
 

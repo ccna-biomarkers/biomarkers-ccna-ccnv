@@ -1,0 +1,7 @@
+MRI
+===
+
+Image acquisition
+:::::::::::::::::
+
+...

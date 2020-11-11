@@ -3,7 +3,7 @@
 Welcome to CCNA's documentation!
 ================================================
 
-PDocumentation in progress, please consider helping us if you are involved.
+Documentation in progress, please consider helping us if you are involved.
 
 .. toctree::
    :maxdepth: 2
@@ -12,6 +12,7 @@ PDocumentation in progress, please consider helping us if you are involved.
    DATASETS
    ACCESS
    AUTHORS
+   MRI
 
 .. toctree::
    :maxdepth: 2

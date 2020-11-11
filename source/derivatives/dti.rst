@@ -9,8 +9,9 @@ Use TractoFlow in published works should be accompanied by the following citatio
     Theaud, G., Houde, J.-C., Boré, A., Rheault, F., Morency, F., Descoteaux, M.,TractoFlow: A robust, efficient and reproducible diffusion MRI pipeline leveraging Nextflow & Singularity, NeuroImage, https://doi.org/10.1016/j.neuroimage.2020.116889.
 
 .. image:: ../imgs/tractoflow.png
-  :alt: Tractoflow image
-  :align: right
+    :width: 300
+    :align: right
+    :alt: Tractoflow image
 
 TractoFlow pipeline
 :::::::::::::::::::
