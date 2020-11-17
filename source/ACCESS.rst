@@ -7,8 +7,6 @@ Th most update info on CCNA Data Access Policy can be found at `<https://ccna-cc
 CCNA investigator submits request to access/analyze CCNA acquired data to PDAC through CCNA Central. Project/publication summary is provided with the request.
 
 Following review of the request CCNA grants access/analysis of CCNA acquired data.
-"| "
-"| "
 
 **NON-CCNA INVESTIGATORS AND CCNA PARTNERS**
 
