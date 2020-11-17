@@ -13,6 +13,8 @@ COMPASS-ND participants are scanned using the Canadian Dementia Imaging Protocol
 - Diffusion imaging
 - BOLD connectivity (resting state)
 
+Prrovided here are the CDIP protocols for the `GE Healthcare <https://e1f1d41d-41f9-42d3-b750-19dde229feea.filesusr.com/ugd/6e16ef_5c9d763efd584f3fa9b0b1e0f068360b.pdf>`_, Philips Medical and Siemens Medical Systems MRI 
+
 **3D T1-weighted scan**
 
 3D isotropic T1-weighted (T1w) imaging were obtained for assessing fine anatomical detail with high resolution (voxel size = 1.0 × 1.0 × 1.0 mm3) and acceleration factor of 2 (GE: FSPGR; Philips: T1-TFE; Siemens: MP-RAGE).
