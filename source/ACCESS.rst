@@ -9,6 +9,7 @@ CCNA investigator submits request to access/analyze CCNA acquired data to PDAC t
 Following review of the request CCNA grants access/analysis of CCNA acquired data. 
 
 
+
 **NON-CCNA INVESTIGATORS AND CCNA PARTNERS**
 
 CCNA data are embargoed for one (1) year after the entire cohort has been completed, uploaded into LORIS, quality controlled and locked.
