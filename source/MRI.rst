@@ -15,7 +15,7 @@ COMPASS-ND participants are scanned using the Canadian Dementia Imaging Protocol
 
 **3D T1-weighted scan**
 
-3D isotropic T1-weighted (T1w) imaging were obtained for assessing fine anatomical detail with high resolution (voxel size = 1.0 × 1.0 × 1.0 mm3) and acceleration factor of 2 (Siemens: MP-RAGE; GE: FSPGR; Philips: T1-TFE).
+3D isotropic T1-weighted (T1w) imaging were obtained for assessing fine anatomical detail with high resolution (voxel size = 1.0 × 1.0 × 1.0 mm3) and acceleration factor of 2 (GE: FSPGR; Philips: T1-TFE; Siemens: MP-RAGE).
 
 
 **Resting-state Functional MRI (rsfMRI)**
