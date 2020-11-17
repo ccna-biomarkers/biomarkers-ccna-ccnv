@@ -1,6 +1,7 @@
 Access
 ======
-Th most update info on CCNA Data Access Policy can be found at `<https://ccna-ccnv.ca/policies/>`_
+Th most update info on CCNA Data Access Policy can be found at `<https://ccna-ccnv.ca/policies/>`_.
+
 For convenience, we have provided a brief outline of the required steps.
 
 **CCNA INVESTIGATORS**
