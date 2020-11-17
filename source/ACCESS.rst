@@ -1,5 +1,21 @@
 Access
 ======
+CCNA INVESTIGATORS
+
+CCNA investigator submits request to access/analyze CCNA acquired data to PDAC through CCNA Central.Note that Project/publication summary is
+provided with the request.
+
+Following review of teh request CCNA grants access/analysis of CCNA acquired data. 
+
+NON-CCNA INVESTIGATORS AND CCNA PARTNERS
+
+CCNA data are embargoed for one (1) year after the entire cohort has been completed, uploaded into LORIS, quality controlled and locked.
+
+After embargo period, nonCCNA Investigator/CCNA Partner submits request to access CCNA acquired data to PDAC through CCNA Central.
+  Project outline and relevant background material are provided with the request
+  CCNA Partners may ask CCNA investigators to pursue projects on their behalf
+  
+PDAC notifies non-CCNA Investigator/CCNA Partner of decision through CCNA Central
 
 Data Transfer Agreement (DTA)
 :::::::::::::::::::::::::::::
