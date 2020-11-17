@@ -27,10 +27,9 @@ We require that all publications using the CCNA data include the following langu
   
   The CCNA biomarker project...
 
-The CCNA biomarker team is based at "Centre de Recherche de l'Institut Universitaire de Gériatrie de Montréal", with several other institutions involved.
-See the CCNA biomarker documentation for an up-to-date list of contributors (https://ccna-biomarkers.readthedocs.io/en/latest/AUTHORS.html). 
+The headquarters of CCNA imaging biomarker team is based at "Centre de Recherche de l'Institut Universitaire de Gériatrie de Montréal", with several other institutions involved. See the CCNA biomarker documentation for an up-to-date list of contributors (https://ccna-biomarkers.readthedocs.io/en/latest/AUTHORS.html). 
 
-In addition, we encourage you to include the name of the cneuromod data release used in the analysis (e.g. ccna-2020), as well as any relevant excerpt from this documentation.
+In addition, we encourage you to include the name of the CCNA data release used in the analysis (e.g. ccna-2020), as well as any relevant excerpt from this documentation.
 Although some journals flag reproductions of technical documentation as plagiarism, using a standardized wording help consistency and reproducibility in the literature.
 Please reproduce this documentation verbatim to the greatest extent possible, and justify to the editor that this practice does not fall under plagiarism.
 
