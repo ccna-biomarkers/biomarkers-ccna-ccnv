@@ -5,6 +5,7 @@ Image acquisition
 :::::::::::::::::
 
 COMPASS-ND participants are scanned using the Canadian Dementia Imaging Protocol (`CDIP <https://www.cdip-pcid.ca/>`_). CDIP is organized around a central, tri-vendor (GE Healthcare, Philips Medical and Siemens Medical Systems MRI) harmonized core protocol of acquisitions. It is compressed to fit a 45-minutes window, which consists of six sequences:
+
 3D T1-weighted, resolution 
 T2/PD-weighted, resolution
 FLAIR, resolution
