@@ -10,8 +10,13 @@ COMPASS-ND participants are scanned using the Canadian Dementia Imaging Protocol
 - T2/PD-weighted
 - FLAIR
 - T2*
-- Diffusion imaging, 30+ directions
-- BOLD connectivity (resting state), 10 mins
+- Diffusion imaging
+- BOLD connectivity (resting state)
+
+**3D T1-weighted scan**
+
+3D isotropic T1-weighted (T1w) imaging were obtained for assessing fine anatomical detail with high resolution (voxel size = 1.0 × 1.0 × 1.0 mm3) and acceleration factor of 2 (Siemens: MP-RAGE; GE: FSPGR; Philips: T1-TFE).
+
 
 **Resting-state Functional MRI (rsfMRI)**
 
