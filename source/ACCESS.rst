@@ -33,7 +33,7 @@ Although some journals flag reproductions of technical documentation as plagiari
 Please reproduce this documentation verbatim to the greatest extent possible, and justify to the editor that this practice does not fall under plagiarism.
 
 .. note::
-  Multiple versions of the documentation exist, one for each CCNA release, so please make sure to use excerpts from the correct version of the documentation, matching the data release used in the analysis. 
+  Multiple versions of the documentation will exist, one for each CCNA release, so please make sure to use excerpts from the correct version of the documentation, matching the data release used in the analysis. 
 
 Ethics
 ::::::
