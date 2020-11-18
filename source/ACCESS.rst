@@ -16,9 +16,6 @@ After embargo period, non-CCNA Investigator/CCNA Partner submits request to acce
   
 PDAC notifies non-CCNA Investigator/CCNA Partner of decision through CCNA Central
 
-Data Transfer Agreement (DTA)
-:::::::::::::::::::::::::::::
-
 How to acknowledge
 ::::::::::::::::::
 
@@ -34,9 +31,6 @@ Please reproduce this documentation verbatim to the greatest extent possible, an
 
 .. note::
   Multiple versions of the documentation will exist, one for each CCNA release, so please make sure to use excerpts from the correct version of the documentation, matching the data release used in the analysis. 
-
-Ethics
-::::::
 
 
 Downloading the dataset
