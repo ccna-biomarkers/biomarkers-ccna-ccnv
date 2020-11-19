@@ -1,40 +1,20 @@
 Access
 ======
-Th most update info on CCNA Data Access Policy can be found at `<https://ccna-ccnv.ca/policies/>`_. For convenience, we have provided a brief outline of the required steps.
-
-**CCNA INVESTIGATORS**
-
-CCNA investigator submits request to access/analyze CCNA acquired data to PDAC through CCNA Central. Project/publication summary is provided with the request.
-
-Following review of the request CCNA grants access/analysis of CCNA acquired data.
-
-**NON-CCNA INVESTIGATORS AND CCNA PARTNERS**
-
-CCNA data are embargoed for one (1) year after the entire cohort has been completed, uploaded into LORIS, quality controlled and locked.
-
-After embargo period, non-CCNA Investigator/CCNA Partner submits request to access CCNA acquired data to PDAC through CCNA Central. Project outline and relevant background material are provided with the request. Moreover, CCNA Partners may ask CCNA investigators to pursue projects on their behalf.
-  
-PDAC notifies non-CCNA Investigator/CCNA Partner of decision through CCNA Central
+The imaging ccna-biomarkers release can be accessed using the sftp serever of the `CCNA LORIS portal <https://ccna.loris.ca/>`. The most update info on CCNA Data Access Policy can be found at `<https://ccna-ccnv.ca/policies/>`_. For convenience, we have provided a brief outline of the required steps. CCNA investigators may submit request to access/analyze CCNA acquired data to a publication data access committee (PDAC), through `CCNA Central <http://ccna-ccnv.ca/contact/?select=Central%20Administration>`. Project/publication summary is provided with the request. Following review of the request CCNA grants access/analysis of CCNA acquired data. For non-CCNA investigators, CCNA data are embargoed for one (1) year after the entire cohort has been completed, uploaded into LORIS, quality controlled and locked. After embargo period, non-CCNA Investigator/CCNA Partner submits request to access CCNA acquired data to PDAC through CCNA Central. Project outline and relevant background material are provided with the request. Moreover, CCNA Partners may ask CCNA investigators to pursue projects on their behalf. PDAC notifies non-CCNA Investigator/CCNA Partner of decision through CCNA Central.
 
 How to acknowledge
 ::::::::::::::::::
 
 We require that all publications using the CCNA data include the following language in the acknowledgement section:
   
-   The pan-Canadian cohort on Comprehensive Assessment of Neurodegeneration and Dementia (COMPASS-ND) is assembled by the Canadian Consortium on Neurodegeneration in Aging (CCNA) (Chertkow et al., 2019). The CCNA is supported by an infrastructure and operating grant from the CIHR (Grant no. CNA-137794) and the following partners: Alberta Prion Research Institute, Alzheimer’s Research UK, Alzheimer Society of Canada, Canadian Nurses Foundation, Fonds de recherche du Québec – Santé, Michael Smith Foundation for Health Research, New Brunswick Health Research Foundation, Nova Scotia Health Research Foundation, Ontario Brain Institute, Pfizer Inc., Robin and Barry Picov Family Foundation, Sanofi, Saskatchewan Health Research Foundation, Women’s Brain Health Initiative. The CNNA imaging biomarkers team receives additional support from Alberta Innovates and the Courtois foundation. The CCNA imaging biomarkers have been prepared, validated and documented by investigators within team 9 of CCNA, see the online documentation for an up-to-date `list of contributors <https://ccna-biomarkers.readthedocs.io/en/latest/AUTHORS.html>`. 
+   The pan-Canadian cohort on Comprehensive Assessment of Neurodegeneration and Dementia (COMPASS-ND) is assembled by the Canadian Consortium on Neurodegeneration in Aging (CCNA) (Chertkow et al., 2019). The Jewish General Research Ethics Board approved the COMPASS-ND study. The CCNA is supported by an infrastructure and operating grant from the CIHR (Grant no. CNA-137794) and the following partners: Alberta Prion Research Institute, Alzheimer’s Research UK, Alzheimer Society of Canada, Canadian Nurses Foundation, Fonds de recherche du Québec – Santé, Michael Smith Foundation for Health Research, New Brunswick Health Research Foundation, Nova Scotia Health Research Foundation, Ontario Brain Institute, Pfizer Inc., Robin and Barry Picov Family Foundation, Sanofi, Saskatchewan Health Research Foundation, Women’s Brain Health Initiative. The CNNA imaging biomarkers team receives additional support from Alberta Innovates and the Courtois foundation. The CCNA imaging biomarkers have been prepared, validated and documented by investigators within team 9 of CCNA, see the online documentation for an up-to-date `list of contributors <https://ccna-biomarkers.readthedocs.io/en/latest/AUTHORS.html>`. 
 
 Please include the following reference `(Chertkow et al., 2019) <https://doi.org/10.1017/cjn.2019.27>` along with this description: 
 
    H Chertkow, M Borrie, V Whitehead, S E Black, H H Feldman, S Gauthier, D B Hogan, M Masellis, K McGilton, K Rockwood, M C Tierney, M Andrew, G-Y R Hsiung, R Camicioli, E E Smith, J Fogarty, J Lindsay, S Best, A Evans, S Das, Z Mohaddes, R Pilon, J Poirier, N A Phillips, E MacNamara, R A Dixon, S Duchesne, I MacKenzie, R J Rylett. The Comprehensive Assessment of Neurodegeneration and Dementia: Canadian Cohort Study. Canadian Journal of Neurological Sciences / Journal Canadien des Sciences Neurologiques, Volume 46, Issue 5, September 2019, pp. 499-511.
 
-In addition, we encourage you to include the name of the CCNA data release used in the analysis (e.g. ccna-2020), as well as any relevant excerpt from this documentation. Although some journals flag reproductions of technical documentation as plagiarism, using a standardized wording help consistency and reproducibility in the literature. Please reproduce this documentation verbatim to the greatest extent possible, and justify to the editor that this practice does not fall under plagiarism.
+In addition, we encourage you to include any relevant excerpt from this documentation in your manuscript. Although some journals flag reproductions of technical documentation as plagiarism, using a standardized wording help consistency and reproducibility in the literature. Please reproduce this documentation verbatim to the greatest extent possible, and justify to the editor that this practice does not fall under plagiarism.
 
-.. note::
-  Multiple versions of the documentation will exist, one for each CCNA release, so please make sure to use excerpts from the correct version of the documentation, matching the data release used in the analysis. 
-
-
-Downloading the dataset
-:::::::::::::::::::::::
-
-Updates
-:::::::
+Release version
+:::::::::::::::
+Multiple versions of the COMPASS-ND imaging biomarkers are released, indicated by year. The current release is `ccna-2020`). Correspondingly, multiple versions of this documentation exist, which can all be accessed in the online version of the documentation. Please make sure to use excerpts from the correct version of the documentation, matching the data release used in the analysis, and include the name of the CCNA data release used in the analysis (e.g. ccna-2020).
