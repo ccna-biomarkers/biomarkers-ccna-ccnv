@@ -17,4 +17,4 @@ In addition, we encourage you to include any relevant excerpt from this document
 
 Release version
 :::::::::::::::
-Multiple versions of the COMPASS-ND imaging biomarkers are released, indicated by year. The current release is `ccna-2020`). Correspondingly, multiple versions of this documentation exist, which can all be accessed in the online version of the documentation. Please make sure to use excerpts from the correct version of the documentation, matching the data release used in the analysis, and include the name of the CCNA data release used in the analysis (e.g. ccna-2020).
+Multiple versions of the COMPASS-ND imaging biomarkers are released, indicated by year. The current release is `ccna-2020`. Correspondingly, multiple versions of this documentation exist, which can all be accessed in the online version. Please make sure to use excerpts from the correct version of the documentation, matching the data release used in the analysis, and include the name of the CCNA data release used in the analysis (e.g. ccna-2020).
