@@ -18,8 +18,8 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'ccna-documentation'
-copyright = '2020, SIMEXP Pierre Bellec'
-author = 'Pierre Bellec, et al'
+copyright = '2020, CCNA biomarkers team'
+author = 'CCNA team 9'
 
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
