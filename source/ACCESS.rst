@@ -21,13 +21,13 @@ How to acknowledge
 
 We require that all publications using the CCNA data include the following language in the acknowledgement section:
   
-  The CCNA biomarker project...
+   The pan-Canadian cohort on Comprehensive Assessment of Neurodegeneration and Dementia (COMPASS-ND) is assembled by the Canadian Consortium on Neurodegeneration in Aging (CCNA) (Chertkow et al., 2019). The CCNA is supported by an infrastructure and operating grant from the CIHR (Grant no. CNA-137794) and the following partners: Alberta Prion Research Institute, Alzheimer’s Research UK, Alzheimer Society of Canada, Canadian Nurses Foundation, Fonds de recherche du Québec – Santé, Michael Smith Foundation for Health Research, New Brunswick Health Research Foundation, Nova Scotia Health Research Foundation, Ontario Brain Institute, Pfizer Inc., Robin and Barry Picov Family Foundation, Sanofi, Saskatchewan Health Research Foundation, Women’s Brain Health Initiative. The CNNA imaging biomarkers team receives additional support from Alberta Innovates and the Courtois foundation. The CCNA imaging biomarkers have been prepared, validated and documented by investigators within team 9 of CCNA, see the online documentation for an up-to-date `list of contributors <https://ccna-biomarkers.readthedocs.io/en/latest/AUTHORS.html>`. 
 
-The headquarters of CCNA imaging biomarker team is based at "Centre de Recherche de l'Institut Universitaire de Gériatrie de Montréal", with several other institutions involved. See the CCNA biomarker documentation for an up-to-date list of contributors (https://ccna-biomarkers.readthedocs.io/en/latest/AUTHORS.html). 
+Please include the following reference `(Chertkow et al., 2019) <https://doi.org/10.1017/cjn.2019.27>` along with this description: 
 
-In addition, we encourage you to include the name of the CCNA data release used in the analysis (e.g. ccna-2020), as well as any relevant excerpt from this documentation.
-Although some journals flag reproductions of technical documentation as plagiarism, using a standardized wording help consistency and reproducibility in the literature.
-Please reproduce this documentation verbatim to the greatest extent possible, and justify to the editor that this practice does not fall under plagiarism.
+   H Chertkow, M Borrie, V Whitehead, S E Black, H H Feldman, S Gauthier, D B Hogan, M Masellis, K McGilton, K Rockwood, M C Tierney, M Andrew, G-Y R Hsiung, R Camicioli, E E Smith, J Fogarty, J Lindsay, S Best, A Evans, S Das, Z Mohaddes, R Pilon, J Poirier, N A Phillips, E MacNamara, R A Dixon, S Duchesne, I MacKenzie, R J Rylett. The Comprehensive Assessment of Neurodegeneration and Dementia: Canadian Cohort Study. Canadian Journal of Neurological Sciences / Journal Canadien des Sciences Neurologiques, Volume 46, Issue 5, September 2019, pp. 499-511.
+
+In addition, we encourage you to include the name of the CCNA data release used in the analysis (e.g. ccna-2020), as well as any relevant excerpt from this documentation. Although some journals flag reproductions of technical documentation as plagiarism, using a standardized wording help consistency and reproducibility in the literature. Please reproduce this documentation verbatim to the greatest extent possible, and justify to the editor that this practice does not fall under plagiarism.
 
 .. note::
   Multiple versions of the documentation will exist, one for each CCNA release, so please make sure to use excerpts from the correct version of the documentation, matching the data release used in the analysis. 
