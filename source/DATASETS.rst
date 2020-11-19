@@ -1,7 +1,3 @@
-Datasets
-========
-
-Clinical population
-:::::::::::::::::::
-
-The pan-Canadian cohort on Comprehensive Assessment of Neurodegeneration and Dementia (COMPASS-ND) assembled by the CCNA provides an opportunity to study the full spectrum of age-related dementias. Data collection on 2,310 individuals (ages 50-90) is projected to be completed by the end of 2021, and will feature individuals with the following cognitive conditions: AD dementia (N=150), other dementias (N=600), subjective cognitive impairment (N=300), MCI (N=400), vascular-MCI (N=200), and CN (N=660). Currently, 1,132 of 2,310 individuals have been recruited and includes 85 AD dementia and 110 CN individuals. All participants are being deeply phenotyped with extensive clinical, neuropsychological, neuroimaging, biospecimen and neuropathological assessments.
+Dataset
+=======
+Standardized imaging biomarkers have been generated on the pan-Canadian cohort on Comprehensive Assessment of Neurodegeneration and Dementia (COMPASS-ND), assembled by the CCNA. COMPASS-ND provides an opportunity to study the full spectrum of age-related dementias. Data collection on 2,310 individuals (ages 50-90) is projected to be completed by the end of 2021, and will feature individuals with the following cognitive conditions: AD dementia (N=150), other dementias (N=600), subjective cognitive impairment (N=300), MCI (N=400), vascular-MCI (N=200), and CN (N=660). Currently, 1,132 of 2,310 individuals have been recruited and includes 85 AD dementia and 110 CN individuals. All participants are being deeply phenotyped with extensive clinical, neuropsychological, neuroimaging, biospecimen and neuropathological assessments. Please refer to `(Chertkow et al., 2019) <https://doi.org/10.1017/cjn.2019.27>` for more information on the cohort.
