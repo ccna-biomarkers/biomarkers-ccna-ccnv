@@ -17,7 +17,7 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'ccna-documentation'
+project = 'ccna-imaging-biomarkers'
 copyright = '2020, CCNA biomarkers team'
 author = 'CCNA team 9'
 
