@@ -15,7 +15,7 @@ COMPASS-ND participants are scanned using the Canadian Dementia Imaging Protocol
 
 Prrovided below are the CDIP protocols for the:
 
-- `GE <https://e1f1d41d-41f9-42d3-b750-19dde229feea.filesusr.com/ugd/6e16ef_5c9d763efd584f3fa9b0b1e0f068360b.pdf>`_,
+- `GE <https://e1f1d41d-41f9-42d3-b750-19dde229feea.filesusr.com/ugd/6e16ef_5c9d763efd584f3fa9b0b1e0f068360b.pdf>`_
 - `Philips Achieva <https://e1f1d41d-41f9-42d3-b750-19dde229feea.filesusr.com/ugd/6e16ef_1456cf3ee4c0463886fac94d0d2b132d.pdf>`_ and `Philips Ingenia <https://e1f1d41d-41f9-42d3-b750-19dde229feea.filesusr.com/ugd/6e16ef_9e588a1df1b04df58d8696c35925a629.pdf>`_
 - `Siemens TRIO <https://e1f1d41d-41f9-42d3-b750-19dde229feea.filesusr.com/ugd/6e16ef_d795dc201c4b41589433890989da9735.pdf>`_ and `Siemens PRISMA <https://e1f1d41d-41f9-42d3-b750-19dde229feea.filesusr.com/ugd/6e16ef_d0721e4714ca444f82a47f6ecc96902f.pdf>`_
 
