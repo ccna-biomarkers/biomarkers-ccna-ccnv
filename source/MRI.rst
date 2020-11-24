@@ -30,7 +30,7 @@ Prrovided below are the CDIP protocols for the:
 Functional T2*-weighted images are obtained using a blood-oxygen-level-dependent (BOLD) sensitive single-shot echo-planar (EPI) sequence on the GE Healthcare, Philips Medical or Siemens Medical Systems MRI scanners. During the rsfMRI acquisitions, no specific cognitive tasks are performed, and participants are instructed to keep their eyes open. No camera or physiological recordings are captured, as these equipments are not available at every site.
 
 +------------+------------+-----------+
-| Header Site   | Header 2   | Header 3  |
+|Site        | Header 2   | Header 3  |
 +============+============+===========+
 | body row 1 | column 2   | column 3  |
 +------------+------------+-----------+
