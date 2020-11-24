@@ -4,7 +4,7 @@ Authors
 Overview
 ::::::::
 
-Team 9 "discovering new biomarkers" of the Canadian Consortium on Neurodegeneration in Aging (CCNA) is co-lead by Dr `Roger Dixon <https://sites.ualberta.ca/~vlslab/DixonHomepage/>`_, department of Psychology, University of Alberta, and Dr `Pierre Bellec <https://simexp.github.io/lab-website/team.html>`S, department of Psychology, University of Montreal. The generation of imaging biomarkers using standardized pipelines is one of the core objective of the CCNA biomarkers team, and involves only a subset of investigators, listed below. These imaging biomarkers cover all imaging modalities collected as part of the "comprehensive assessment of neurodegeneration in aging" (COMPASS-ND) cohort, following the Canadian Dementia Imaging Protocol `CDIP <https://www.cdip-pcid.ca>`_.  
+Team 9 "discovering new biomarkers" of the Canadian Consortium on Neurodegeneration in Aging (CCNA) is co-lead by Dr `Roger Dixon <https://sites.ualberta.ca/~vlslab/DixonHomepage/>`_, department of Psychology, University of Alberta, and Dr `Pierre Bellec <https://simexp.github.io/lab-website/team.html>`_, department of Psychology, University of Montreal. The generation of imaging biomarkers using standardized pipelines is one of the core objective of the CCNA biomarkers team, and involves only a subset of investigators, listed below. These imaging biomarkers cover all imaging modalities collected as part of the "comprehensive assessment of neurodegeneration in aging" (COMPASS-ND) cohort, following the Canadian Dementia Imaging Protocol `CDIP <https://www.cdip-pcid.ca>`_.  
 
 Funding
 ::::::::
