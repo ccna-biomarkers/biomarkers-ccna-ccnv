@@ -29,10 +29,29 @@ Prrovided below are the CDIP protocols for the:
 
 Functional T2*-weighted images are obtained using a blood-oxygen-level-dependent (BOLD) sensitive single-shot echo-planar (EPI) sequence on the GE Healthcare, Philips Medical or Siemens Medical Systems MRI scanners. During the rsfMRI acquisitions, no specific cognitive tasks are performed, and participants are instructed to keep their eyes open. No camera or physiological recordings are captured, as these equipments are not available at every site.
 
-+------------+----------------------+-----------+
-|Site        | Field Strength (T)   | Header 3  |
-+============+======================+===========+
-| body row 1 | column 2             | column 3  |
-+------------+----------------------+-----------+
+.. csv-table:: f-MRI sites parameters
+   :header: "Site", "Field Strength (T)", "Voxel size (mm3)", "Matrix size", "Flip Angle", "TE (s)", "TR (s)", "Volumes", "Scan slices order", "Scan time (min)"
+   :widths: 30, 5, 5, 5, 5, 5, 5, 5, 30, 5
+
+   "THE_OTTAWA_HOSPITAL_CIVIC", 3, 3.5, 64x64, 70, 0.03, 2.11, 250, "sequential decreasing", 8.79
+   "Civic_Hospital", 3, 3.5, 64x64, 70, 0.03, 2.11, 250, "sequential decreasing", 8.79
+   "UBC", 3, 3.5, 64x64, 70, 0.030001, 2.11, 250, "unknown", 8.79
+   "UBC_MRI_Research_Centre", 3, 3.5, 64x64, 70, 0.03, 2.11, 250, "unknown", 8.79
+   "Hospital_Douglas", 3, 3.5, 64x64, 70, 0.03, 2.13, 250, "sequential decreasing", 8.88
+   "IRM\_Quebec\_-\_Mailloux\_-_3T", 3, 3.5, 64x64, 70, 0.030001, 2.11, 250, "unknown", 8.79
+   "IRM\_Quebec\_-\_Synase\_-_3T", 3, 3.5, 64x64, 70, 0.030001, 2.11, 250, "unknown", 8.79
+   "ST_JOSEPH_HAMILTON", 3, 3.5, 64x64, 70, 0.03, 2.4, 200, "unknown", 8.00
+   "FOOTHILLS_Hospital", 3, 3.5, 64x64, 70, 0.03, 2.5, 200, "unknown", 8.33
+   "CHUS_FLEURIMONT_Philips_3t", 3, 3.5, 64x64, 70, 0.03, 2.11, 250, "unknown", 8.79
+   "IUGM", 3, 3.5, 64x64, 70, 0.03, 2.13, 250, "sequential increasing", 8.88
+   "Sunnybrook_Research_Institute", 3, 3.5, 64x64, 70, 0.03, 2.13, 250, "sequential increasing", 8.88
+   "Robarts_Research_Institute", 3, 3.5, 64x64, 70, 0.03, 2.13, 250, "sequential increasing", 8.88
+   "Robarts", 3, 3.5, 64x64, 70, 0.03, 2.13, 250, "sequential increasing", 8.88
+   "Robarts-CFMM", 3, 3.5, 64x64, 70, 0.03, 2.13, 250, "sequential increasing", 8.88
+   "3T_ROYAL_UNIVERSITY_HOSP", 3, 3.5, 64x64, 70, 0.03, 2.67, 250, "sequential decreasing", 11.12
+   "Toronto_Western", 3, 3.5, 64x64, 70, 0.03, 2.4, 250, "unknown", 10.00
+   "Peter_S._Allen_MR_Research_Centre", 3, 3.5, 64x64, 70, 0.03, 2.24, 250, "sequential increasing", 9.33
+   "WCMI_UPTOWN", 3, 3.5, 64x64, 70, 0.03, 2.5, 250, "unknown", 10.42
+
 
 
