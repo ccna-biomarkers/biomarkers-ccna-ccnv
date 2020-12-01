@@ -24,6 +24,29 @@ Prrovided below are the CDIP protocols for the:
 
 3D isotropic T1-weighted (T1w) imaging were obtained for assessing fine anatomical detail with high resolution (voxel size = 1.0 × 1.0 × 1.0 mm3) and acceleration factor of 2 (GE: FSPGR; Philips: T1-TFE; Siemens: MP-RAGE).
 
+.. csv-table:: MRI sites parameters
+   :header: "Site", "Field Strength (T)", "Voxel size (mm3)", "Matrix size", "Flip Angle", "TE (s)", "TR (s)"
+   :widths: 30, 10, 10, 10, 10, 10, 10
+
+   "THE_OTTAWA_HOSPITAL_CIVIC", 3, 3, 256x256, 165, 0.091, 3
+   "Civic_Hospital", 3, 3, 256x256, 165, 0.091, 3
+   "UBC", 3, 3, 256x256, 90, 0.1, 3
+   "UBC_MRI_Research_Centre", 3, 3, 256x256, 90, 0.1, 3
+   "Hospital_Douglas", 3, 3, 256x256, 165, 0.093, 3
+   "IRM_Quebec\_-\_Mailloux\_-_3T", 3, 3, 256x256, 90, 0.1, 3
+   "IRM_Quebec\_-\_Synase\_-_3T", 3, 3, 256x256, 90, 0.1, 3
+   "ST_JOSEPH_HAMILTON", 3, 3, 256x256, 125, 0.085696, 3
+   "FOOTHILLS_Hospital", 3, 3, 256x256, 125, 0.089792, 3
+   "CHUS_FLEURIMONT_Philips_3t", 3, 3, 256x256, 90, 0.1, 3
+   "IUGM", 3, 3, 256x256, 165, 0.093, 3
+   "Sunnybrook_Research_Institute", 3, 3, 256x256, 165, 0.093, 3
+   "Robarts_Research_Institute", 3, 3, 256x256, 165, 0.093, 3
+   "Robarts", 3, 3, 256x256, 165, 0.093, 3
+   "Robarts-CFMM", 3, 3, 256x256, 165, 0.093, 3
+   "3T_ROYAL_UNIVERSITY_HOSP", 3, 3, 256x256, 165, 0.093, 3
+   "Toronto_Western", 3, 3, 256x256, 90, 0.084544, 3
+   "Peter_S._Allen_MR_Research_Centre", 3, 3, 256x256, 165, 0.093, 3
+   "WCMI_UPTOWN", 3, 3, 256x256, 142, 0.086184, 3.35
 
 **Resting-state Functional MRI (rsfMRI)**
 
