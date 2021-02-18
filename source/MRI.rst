@@ -6,7 +6,7 @@ Image acquisition
 
 COMPASS-ND participants are scanned using the Canadian Dementia Imaging Protocol (`CDIP <https://www.cdip-pcid.ca/>`_). CDIP is organized around a central, tri-vendor (GE Healthcare, Philips Medical and Siemens Medical Systems MRI) harmonized core protocol of acquisitions. It is compressed to fit a 45-minutes window, which consists of six sequences:
 
-- 3D T1-weighted 
+- 3D T1-weighted
 - T2/PD-weighted
 - FLAIR
 - T2*
@@ -76,5 +76,31 @@ Functional T2*-weighted images are obtained using a blood-oxygen-level-dependent
    "Peter_S._Allen_MR_Research_Centre", 3, 3.5, 64x64, 70, 0.03, 2.24, 250, "sequential increasing", 9.33
    "WCMI_UPTOWN", 3, 3.5, 64x64, 70, 0.03, 2.5, 250, "unknown", 10.42
 
+**Diffusion weighted MRI (DWI)**
 
+Diffusion weighted images are obtained using
 
+.. csv-table:: f-MRI sites parameters
+   :header: "Site", "Field Strength (T)", "Voxel size (mm3)", "Matrix size", "TE (s)", "TR (s)", "b-values", "Number of directions", "Number of b0s", "Scan time (min)"
+
+   :widths: 30, 5, 5, 5, 5, 5, 5, 5, 30, 5
+
+   "THE_OTTAWA_HOSPITAL_CIVIC", 3, 3.5, 64x64, 70, 0.03, 2.11, 250, "sequential decreasing", 8.79
+   "Civic_Hospital", 3, 2, 64x64, 70, 0.03, 2.11, 250, "sequential decreasing", 8.79
+   "UBC", 3, 2, 64x64, 70, 0.030001, 2.11, 250, "unknown", 8.79
+   "UBC_MRI_Research_Centre", 3, 2, 64x64, 70, 0.03, 2.11, 250, "unknown", 8.79
+   "Hospital_Douglas", 3, 2, 64x64, 70, 0.03, 2.13, 250, "sequential decreasing", 8.88
+   "IRM\_Quebec\_-\_Mailloux\_-_3T", 3, 2, 64x64, 70, 0.030001, 2.11, 250, "unknown", 8.79
+   "IRM\_Quebec\_-\_Synase\_-_3T", 3, 2, 64x64, 70, 0.030001, 2.11, 250, "unknown", 8.79
+   "ST_JOSEPH_HAMILTON", 3, 2, 64x64, 70, 0.03, 2.4, 200, "unknown", 8.00
+   "FOOTHILLS_Hospital", 3, 2, 64x64, 70, 0.03, 2.5, 200, "unknown", 8.33
+   "CHUS_FLEURIMONT_Philips_3t", 3, 2, 64x64, 70, 0.03, 2.11, 250, "unknown", 8.79
+   "IUGM", 3, 2, 64x64, 70, 0.03, 2.13, 250, "sequential increasing", 8.88
+   "Sunnybrook_Research_Institute", 3, 2, 64x64, 70, 0.03, 2.13, 250, "sequential increasing", 8.88
+   "Robarts_Research_Institute", 3, 2, 64x64, 70, 0.03, 2.13, 250, "sequential increasing", 8.88
+   "Robarts", 3, 2, 64x64, 70, 0.03, 2.13, 250, "sequential increasing", 8.88
+   "Robarts-CFMM", 3, 2, 64x64, 70, 0.03, 2.13, 250, "sequential increasing", 8.88
+   "3T_ROYAL_UNIVERSITY_HOSP", 3, 2, 64x64, 70, 0.03, 2.67, 250, "sequential decreasing", 11.12
+   "Toronto_Western", 3, 2, 64x64, 70, 0.03, 2.4, 250, "unknown", 10.00
+   "Peter_S._Allen_MR_Research_Centre", 3, 2, 64x64, 70, 0.03, 2.24, 250, "sequential increasing", 9.33
+   "WCMI_UPTOWN", 3, 2, 64x64, 70, 0.03, 2.5, 250, "unknown", 10.42
