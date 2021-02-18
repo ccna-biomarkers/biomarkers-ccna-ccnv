@@ -78,9 +78,9 @@ Functional T2*-weighted images are obtained using a blood-oxygen-level-dependent
 
 **Diffusion weighted MRI (DWI)**
 
-Diffusion weighted images are obtained using
+Diffusion weighted images are obtained by measuring the random Brownian motion of water molecules within a voxel of tissue.
 
-.. csv-table:: f-MRI sites parameters
+.. csv-table:: DWI sites parameters
    :header: "Site", "Field Strength (T)", "Voxel size (mm3)", "Matrix size", "TE (s)", "TR (s)", "b-values", "Number of directions", "Number of b0s", "revb0"
    :widths: 30, 5, 5, 5, 5, 5, 5, 5, 30, 5
 
