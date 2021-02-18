@@ -68,8 +68,7 @@ Quality control outputs will include:
     Packages for quality control: registration in particular
 
 
-1http://www.nitrc.org/plugins/mwiki/index.php/neurobureau:NIAKPipeline
-2http://en.wikibooks.org/wiki/MINC 
-3http://www.nitrc.org/frs/?group_id=411 
-4https://github.com/SIMEXP/niak 
-5http://psom.simexp-lab.org/how_to_use_psom.html
+http://www.nitrc.org/plugins/mwiki/index.php/neurobureau:fMRIprepPipeline 
+http://www.nitrc.org/frs/?group_id=411
+https://github.com/SIMEXP/fmriprep
+http://psom.simexp-lab.org/how_to_use_psom.html
