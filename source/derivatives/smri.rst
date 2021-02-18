@@ -17,11 +17,11 @@ Quality Control
 Quality control images are generated using post-processing showing selected slices of input images overlayed with candidate segmentations.
 Quality control must be performed manually by the user to confirm successful segmentation.
 
-Freesurfer outputs
+Freesurfer derivatives
 .........................................
 
-  .. Freesurfer derivatives::
-    For more information on the Freesurfer steps and processing please see the section on sMRI.
+Freesurfer output files may be found in the freesurfer directory under the individual subject folders. 
+::
     /mri/orig
      001.mgz
      002.mgz
