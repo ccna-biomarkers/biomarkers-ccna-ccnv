@@ -11,7 +11,7 @@ Overall, despite still being in its infancy, there is solid evidence at this sta
 
 .. image:: ../imgs/fmriprep-workflow-all.png
   :width: 700
-  :alt: Niak image
+  :alt: fMRIprep workflow (https://fmriprep.org/en/stable/index.html)
 
 fMRIprep Pipeline
 :::::::::::::
