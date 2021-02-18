@@ -84,22 +84,22 @@ Diffusion weighted images are obtained by measuring the random Brownian motion o
    :header: "Site", "Field Strength (T)", "Voxel size (mm3)", "Matrix size", "TE (s)", "TR (s)", "b-values", "Number of directions", "Number of b0s", "revb0"
    :widths: 30, 5, 5, 5, 5, 5, 5, 5, 30, 5
 
-   "THE_OTTAWA_HOSPITAL_CIVIC", 3, 3.5, 64x64, 70, 0.03, 2.11, 250, "sequential decreasing", 8.79
-   "Civic_Hospital", 3, 2, 64x64, 70, 0.03, 2.11, 250, "sequential decreasing", 8.79
-   "UBC", 3, 2, 64x64, 70, 0.030001, 2.11, 250, "unknown", 8.79
-   "UBC_MRI_Research_Centre", 3, 2, 64x64, 70, 0.03, 2.11, 250, "unknown", 8.79
-   "Hospital_Douglas", 3, 2, 64x64, 70, 0.03, 2.13, 250, "sequential decreasing", 8.88
-   "IRM\_Quebec\_-\_Mailloux\_-_3T", 3, 2, 64x64, 70, 0.030001, 2.11, 250, "unknown", 8.79
-   "IRM\_Quebec\_-\_Synase\_-_3T", 3, 2, 64x64, 70, 0.030001, 2.11, 250, "unknown", 8.79
-   "ST_JOSEPH_HAMILTON", 3, 2, 64x64, 70, 0.03, 2.4, 200, "unknown", 8.00
-   "FOOTHILLS_Hospital", 3, 2, 64x64, 70, 0.03, 2.5, 200, "unknown", 8.33
-   "CHUS_FLEURIMONT_Philips_3t", 3, 2, 64x64, 70, 0.03, 2.11, 250, "unknown", 8.79
-   "IUGM", 3, 2, 64x64, 70, 0.03, 2.13, 250, "sequential increasing", 8.88
-   "Sunnybrook_Research_Institute", 3, 2, 64x64, 70, 0.03, 2.13, 250, "sequential increasing", 8.88
-   "Robarts_Research_Institute", 3, 2, 64x64, 70, 0.03, 2.13, 250, "sequential increasing", 8.88
-   "Robarts", 3, 2, 64x64, 70, 0.03, 2.13, 250, "sequential increasing", 8.88
-   "Robarts-CFMM", 3, 2, 64x64, 70, 0.03, 2.13, 250, "sequential increasing", 8.88
-   "3T_ROYAL_UNIVERSITY_HOSP", 3, 2, 64x64, 70, 0.03, 2.67, 250, "sequential decreasing", 11.12
-   "Toronto_Western", 3, 2, 64x64, 70, 0.03, 2.4, 250, "unknown", 10.00
-   "Peter_S._Allen_MR_Research_Centre", 3, 2, 64x64, 70, 0.03, 2.24, 250, "sequential increasing", 9.33
-   "WCMI_UPTOWN", 3, 2, 64x64, 70, 0.03, 2.5, 250, "unknown", 10.42
+   "THE_OTTAWA_HOSPITAL_CIVIC", 3, 2,  128x128, 0.096, 9.40, 1000, 30, 1, "none"
+   "Civic_Hospital", 3, 2,  128x128, 0.100, 9.94, 1000, 32, 1, "none"
+   "UBC", 3, 2,  128x128, 0.100, 9.93, 1000, 32, 1, "none"
+   "UBC_MRI_Research_Centre", 3, 2,  128x128, 0.096, 9.40, 1000, 30, 1, "none"
+   "Hospital_Douglas", 3, 2,  128x128, 0.097, 9.53, 1000, 32, 1, "none"
+   "IRM\_Quebec\_-\_Mailloux\_-_3T", 3, 2,  128x128, 0.097, 9.53, 1000, 32, 1, "none"
+   "IRM\_Quebec\_-\_Synase\_-_3T", 3, 2,  128x128, 0.085, 9.00, 1000, 30, 3, "none"
+   "ST_JOSEPH_HAMILTON", 3, 2,  128x128, 0.087, 9.00, 1000, 30, 3, "none"
+   "FOOTHILLS_Hospital", 3, 2,  128x128, 0.109, 10.44, 1000, 32, 1, "none"
+   "CHUS_FLEURIMONT_Philips_3t", 3, 2,  128x128, 0.064, 6.90, 1000, 30, 3, "none"
+   "IUGM", 3, 2,  128x128, 0.064, 6.90, 1000, 30, 3, "none"
+   "Sunnybrook_Research_Institute", 3, 2,  128x128, 0.064, 6.90, 1000, 30, 3, "none"
+   "Robarts_Research_Institute", 3, 2,  128x128, 0.064, 6.90, 1000, 30, 3, "none"
+   "Robarts", 3, 2,  128x128, 0.064, 6.90, 1000, 30, 3, "none"
+   "Robarts-CFMM", 3, 2,  128x128, 0.101, 13.00, 1000, 30, 1, "none"
+   "3T_ROYAL_UNIVERSITY_HOSP", 3, 2,  128x128, 0.106, 11.70, 1000, 30, 3, "none"
+   "Toronto_Western", 3, 2,  128x128, 0.064, 6.90, 1000, 30, 3, "none"
+   "Peter_S._Allen_MR_Research_Centre", 3, 2,  128x128, 0.083, 12.50, 1000, 30, 3, "none"
+   "WCMI_UPTOWN", 3, 1, 256x256, 0.064, 6.90, 1000, 30, 1, "none"
