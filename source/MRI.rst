@@ -81,8 +81,7 @@ Functional T2*-weighted images are obtained using a blood-oxygen-level-dependent
 Diffusion weighted images are obtained using
 
 .. csv-table:: f-MRI sites parameters
-   :header: "Site", "Field Strength (T)", "Voxel size (mm3)", "Matrix size", "TE (s)", "TR (s)", "b-values", "Number of directions", "Number of b0s", "Scan time (min)"
-
+   :header: "Site", "Field Strength (T)", "Voxel size (mm3)", "Matrix size", "TE (s)", "TR (s)", "b-values", "Number of directions", "Number of b0s", "revb0"
    :widths: 30, 5, 5, 5, 5, 5, 5, 5, 30, 5
 
    "THE_OTTAWA_HOSPITAL_CIVIC", 3, 3.5, 64x64, 70, 0.03, 2.11, 250, "sequential decreasing", 8.79
